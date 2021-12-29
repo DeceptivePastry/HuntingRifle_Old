@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="HuntingRifle_Old" />
+		<Description value="Brings back the pre-Alpha 20 Hunting Rifle." />
+		<Author value="Deceptive Pastry" />
+		<Version value="1.0" compat="A20" />
+		<Website value="" />
+	</ModInfo>
+</xml>

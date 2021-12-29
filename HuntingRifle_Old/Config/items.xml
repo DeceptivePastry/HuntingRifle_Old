@@ -1,0 +1,12 @@
+<configs>
+	<set xpath="items/item[@name='gunRifleT1HuntingRifle']/property[@name='Meshfile']/@value">#@modfolder:Resources/HuntingRifle_Old.unity3d?HuntingRifle_Old.prefab</set>
+	<set xpath="items/item[@name='gunRifleT1HuntingRifle']/property[@name='Tags']/@value">weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,attachmentsIncluded,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic,huntingRifleAttachments</set>
+	
+	<append xpath="items/item[@name='gunRifleT1HuntingRifle']">
+		<property name="CustomIcon" value="HuntingRifle_Old"/>
+	</append>
+	
+	<append xpath="items/item[@name='gunRifleT1HuntingRifle']/property[@class='Action1']">
+		<property name="ScopeCameraOffset" value="0,0.028,-0.05"/>	
+	</append>
+</configs>
